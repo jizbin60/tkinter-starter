@@ -63,4 +63,8 @@ bar['value'] = 70
  
 bar.grid(column=0, row=0)
 
+txt = Entry(window,width=10)
+ 
+txt.grid(column=1, row=0)
+
 window.mainloop()     # Keep the window open
