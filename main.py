@@ -1,7 +1,10 @@
 # A starter program for Python with Tkinter
 
 from tkinter import * # import Tkinter library
-window = Tk()         # Create the application window
+from tkinter.ttk import *
+from ttkthemes import ThemedTk
+
+window = ThemedTk(theme="blue")         # Create the application window
 
 # Add a label with the text "Hello"
 lbl = Label(window, text="goodbye")
